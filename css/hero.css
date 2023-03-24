@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: 'Comfortaa', cursive;
-	background-color: #A980FF;
+	background-color: #C5A6C9;
 	font-size: 20px;
 	line-height: 30px;
+	text-align: justify;
 }
 
 header {
@@ -12,8 +17,12 @@ header {
 	padding-bottom: 50px;
 }
 
+header p {
+	margin-top: 0;
+}
+
 header h1 {
-	color: white;
+	color:  #FFFAAF;
 	font-size: 70px;
 	font-family: 'Rampart One', cursive;
 }
@@ -23,8 +32,8 @@ h1, h2 {
 }
 
 header img {
-	border-radius: 100px;
-	width: 600px;
+	border-radius: 25px;
+	width: 800px;
 	border: 5px solid black;
 }
 
@@ -40,30 +49,62 @@ main img {
 
 h2 {
 	font-size: 35px;
-	color: white;
+	color: #FFFAAF;
 	margin: 40px 0 10px;
 }
  
 a {
-	color: white;
+	color: black;
 }
 
 a:hover {
-	color: #483a94;
+	color: #FFFAAF;
 }
 
 footer {
 	text-align: center;
-	background-color: lightyellow;
-	padding: 50px;
+	background-color: #FFFAAF;
+	padding: 10px;
 }
 
 footer p {
-	margin: 0;
+	text-align: justify;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 p.caption {
-	color: #F7ED9C;
-	font-style: italic;
+	color: #FFFAAF;
+	font-style: bold;
+	margin-top: 0;
+}
+
+.columna {
+  float: left;
+  width: 50%;
+  padding-right: 5px;
+}
+
+.fila::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div img {
+	width: 640px;
+	height: 333px;
+}
+
+footer img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+footer h3 {
+	font-family: 'Rampart One', cursive;
+	text-transform: uppercase;
 	margin-top: 0;
 }
