@@ -75,7 +75,7 @@ footer p {
 }
 
 p.caption {
-	color: #FFFAAF;
+	color: black;
 	font-style: bold;
 	margin-top: 0;
 }
@@ -95,6 +95,8 @@ p.caption {
 div img {
 	width: 640px;
 	height: 333px;
+	border-radius: 15px;
+	border: 2px solid black;
 }
 
 footer img {
